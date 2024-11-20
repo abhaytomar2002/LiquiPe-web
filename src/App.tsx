@@ -1,15 +1,11 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import { Helmet } from "react-helmet";
-import Banner from "./components/banner";
+import Banner from "./components/MainPage";
 import Benefit from "./components/benefit";
 import Company from "./components/company";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-import Newsletter from "./components/newsletter";
-import Pricing from "./components/pricing";
-import Review from "./components/review";
-import Transaction from "./components/transaction";
+import Transaction from "./components/Highlights";
 
 export default function App() {
   return (
@@ -27,9 +23,6 @@ export default function App() {
         <Benefit />
         <Transaction />
         <Company />
-        {/* <Pricing />
-        <Review />
-        <Newsletter /> */}
         <footer>
           <Footer />
         </footer>

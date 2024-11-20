@@ -5,16 +5,16 @@ const Navbar: React.FC = () => {
   return (
     <nav className="py-8">
       <div className="w-full xl:w-container mx-auto flex justify-between items-center">
-        <div className="text-white font-bold ">LiquiPe</div>
-        <div className="space-x-16">
+        <div className="text-white text-3xl">LiquiPe</div>
+        <div className="pl-32 space-x-16">
           <Link to="/" className="text-white hover:text-gray-400">
             Home
           </Link>
-          <Link to="/about" className="text-white hover:text-gray-400">
+          <Link to="#" className="text-white hover:text-gray-400">
             About
           </Link>
-          <Link to="/services" className="text-white hover:text-gray-400">
-            Services
+          <Link to="/emiCalculator" className="text-white hover:text-gray-400">
+            EMI Calculator
           </Link>
           <Link to="/contact" className="text-white hover:text-gray-400">
             Contact
